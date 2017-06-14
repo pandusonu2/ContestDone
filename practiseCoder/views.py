@@ -63,10 +63,10 @@ def getContestRow(contestID, full, partial):
 					ret += "<td style=\"border:1px solid black; background: green;\">" + problem + "</td>"
 				elif problem in partial:
 					ret += "<td style=\"border:1px solid black; background: yellow;\">"
-					ret += "<a href=\"https://www.codechef.com/problems/"+ problem + "\">" + problem + "</a></td>"
+					ret += "<a target=_blank href=\"https://www.codechef.com/problems/"+ problem + "\">" + problem + "</a></td>"
 				else:
 					ret += "<td style=\"border:1px solid black\">"
-					ret += "<a href=\"https://www.codechef.com/problems/"+ problem + "\">" + problem + "</a></td>"
+					ret += "<a target=_blank href=\"https://www.codechef.com/problems/"+ problem + "\">" + problem + "</a></td>"
 			ret += "</tr>"
 		return ret
 	except Exception:
