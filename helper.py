@@ -30,6 +30,6 @@ while year*12+month < 17*12+5:
 		month = 0
 		year += 1
 problemData = problemData[:-2] + "}"
-file = open('probelms.txt','w')
+file = open('probelms.txt','w+')
 file.write(problemData)
 file.close()
